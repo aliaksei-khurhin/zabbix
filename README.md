@@ -1,5 +1,6 @@
 # zabbix task2
 ***Student***: [Aliaksei Khurhin](https://epa.ms/1Cqi0K)
+
 1.	Screenshot of item and trigger configuration:
 ![Alt text](resource/1.jpg "scr1")
 2. Screenshot of log data:
