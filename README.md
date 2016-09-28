@@ -9,7 +9,7 @@
 ![Alt text](resource/3.jpg "scr3")
 4. Screenshot with trigger alert:
 ![Alt text](resource/4.jpg "scr4")
-5. [Script](test.sh) is provided, but ip and token obtaining are not automated.
+5. [Script](test.sh) is provided, ip and token are obtaining automatically.
 Some details about json files: [first](1.json) one is for receiving authentication token, [second](2.json) is just for testing, [third](3.json) is used in script.
 6. Screenshot of request output:
 ![Alt text](resource/5.jpg "scr5")
