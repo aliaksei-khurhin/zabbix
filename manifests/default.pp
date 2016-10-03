@@ -32,14 +32,14 @@ node default {
     require => Mysql_grant['zabbix/zabbix.*']
   }
   
-  pack = {
+  $pack = {
   'zabbix-server'    => '2.2.14',
   'zabbix-web-mysql' => '2.2.14',
   'zabbix-agent'     => '2.2.14',
   'php'              => 'latest'
   }
-  pack.each do | p, v |  
-    package { 'install':
+  $pack.each | $p, $v |  
+    package { :
       ensure  => v,
       name    => p,
       require => Yumrepo['zabbix']
